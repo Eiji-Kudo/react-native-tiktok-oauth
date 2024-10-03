@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "react-native-tiktok-oauth": ["../src/index"],
+      "react-native-tiktok-oauth/*": ["../src/*"]
+    }
+  }
+}
